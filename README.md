@@ -9,9 +9,7 @@
 A robust, reactive microservice for order processing using the Saga pattern, built with Spring WebFlux, R2DBC, and Redis. 
 Designed for fault-tolerant, scalable order management in distributed environments.
 
-> **Note**: This project was developed through collaborative human-AI programming using Claude Sonnet, representing an 
-> innovative approach to software development that combines human experience and judgment with AI's rapid code generation 
-> and optimization capabilities.
+
 
 ## 🚀 Quick Start
 
@@ -204,9 +202,6 @@ docker exec -it redis-container redis-cli ping
 - [ ] Advanced monitoring dashboards
 - [ ] Stored procedures for database operations
 
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
 
 ### Development Setup
 1. Fork the repository
@@ -215,32 +210,9 @@ We welcome contributions! Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for
 4. Run quality checks: `mvn clean verify`
 5. Submit a pull request
 
-## 📚 Documentation
 
-- [Architecture Deep Dive](docs/ARCHITECTURE.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [API Documentation](docs/API.md)
-- [Performance Tuning](docs/PERFORMANCE.md)
-- [Migration Guide](docs/MIGRATION.md)
 
-## 👥 Authors
 
-- **Alonso Isidoro Roman** - *Lead Developer & Architect* - [alonsoir@gmail.com](mailto:alonsoir@gmail.com)
-- **Claude Sonnet (Anthropic)** - *AI Co-Developer* - Collaborative programming partner
-
-> This project demonstrates the power of human-AI collaboration in software development, combining human experience, 
-> domain knowledge, and strategic thinking with AI's rapid code generation, optimization suggestions, and comprehensive 
-> testing capabilities.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Spring Team for the excellent reactive framework
-- TestContainers team for simplified integration testing
-- The open-source community for inspiration and best practices
 - Anthropic for Claude Sonnet, an exceptional AI programming partner
 
 ---

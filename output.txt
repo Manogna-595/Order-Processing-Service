@@ -1,0 +1,26 @@
+Estado actual:
+
+order-service/src/test/java/com/example/order/actuator: GREEN
+order-service/src/test/java/com/example/order/domain: GREEN
+order-service/src/test/java/com/example/order/service/unit: GREEN
+order-service/src/test/java/com/example/order/repository/CompositeEventRepositoryMinimalTest.java: GREEN
+order-service/src/test/java/com/example/order/repository/CompositeEventRepositorySimpleTest.java: GREEN
+
+order-service/src/test/java/com/example/order/service/integration: RED
+order-service/src/test/java/com/example/order/repository/CompositeEventRepositoryIntegrationTest.java: RED
+order-service/src/test/java/com/example/order/repository/CompositeEventRepositoryResilienceTest: RED
+order-service/src/test/java/com/example/order/repository/CompositeEventRepositorySagaIntegrationTest: RED
+order-service/src/test/java/com/example/order/repository/CompositeEventRepositorySimpleIntegrationTest: RED
+
+ojito:
+
+Tests que SÍ necesitas:
+
+✅ OrderRepositoryImplTest - Tests unitarios con mocks
+✅ CompositeEventRepositoryTest - Tests de delegación
+✅ EventRepositoryIntegrationTest - Tests de workflows completos
+✅ Repository layer integration tests - Con Testcontainers pero enfocados en capas específicas
+
+git add .
+git commit -m "SonarCloud"
+
